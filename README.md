@@ -1,0 +1,2 @@
+# rescategalactico.html
+JUEGO MEJORADO
