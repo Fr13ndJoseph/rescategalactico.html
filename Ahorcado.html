@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>🚀 Rescate Galáctico 🚀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="contenedor-juego">
+    <h1>🚀 Rescate Galáctico 🚀</h1>
+    <h2 id="msg-final"></h2>
+    <h3 id="acierto"></h3>
+
+    <div class="contenedor-superior">
+      <h2 class="palabra" id="palabra"></h2>
+      <div class="imagen">
+        <img src="img/ataqueee.webp" alt="alien" id="alien" class="alien">
+      </div>
+    </div>
+
+    <div class="info-juego">
+      <h3>Intentos restantes: <span id="intentos">6</span></h3>
+      <button onclick="inicio()" id="reset">Nueva palabra</button>
+      <button onclick="pista()" id="pista">¿Pista?</button>
+      <p id="hueco-pista"></p>
+    </div>
+
+    <div id="abcdario" class="teclado"></div>
+  </div>
+
+  <script src="ahorcado.js"></script>
+</body>
+</html>

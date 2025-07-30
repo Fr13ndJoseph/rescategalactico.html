@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #6c78e3;
+  
+  text-align: center;
+}
+
+.contenedor-juego {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  color: #e5d35e;
+}
+
+.alien {
+  width: 80px;
+  height: 80px;
+  opacity: 0;
+  transition: all 0.5s ease;
+  margin-top: 20px;
+}
+
+button {
+  background: #ff0077;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e6006b;
+}
+
+#abcdario {
+  margin-top: 20px;
+}
+
+#abcdario button {
+  margin: 3px;
+  padding: 8px;
+}
